@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BA6F5B4136B8A4D00B5DA51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6F5B3136B8A4D00B5DA51 /* Foundation.framework */; };
+		1BA6F5B7136B8A4D00B5DA51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F5B6136B8A4D00B5DA51 /* main.m */; };
+		1BA6F5BB136B8A4D00B5DA51 /* notificationlistener.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BA6F5BA136B8A4D00B5DA51 /* notificationlistener.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BA6F5AD136B8A4D00B5DA51 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1BA6F5BB136B8A4D00B5DA51 /* notificationlistener.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BA6F5AF136B8A4D00B5DA51 /* notificationlistener */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = notificationlistener; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA6F5B3136B8A4D00B5DA51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BA6F5B6136B8A4D00B5DA51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BA6F5B9136B8A4D00B5DA51 /* notificationlistener-Prefix.pch */ = {isa = PBXFileReference; path = "notificationlistener-Prefix.pch"; sourceTree = "<group>"; };
+		1BA6F5BA136B8A4D00B5DA51 /* notificationlistener.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = notificationlistener.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BA6F5AC136B8A4D00B5DA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA6F5B4136B8A4D00B5DA51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA6F5A4136B8A4D00B5DA51 = {
+			isa = PBXGroup;
+			children = (
+				1BA6F5B5136B8A4D00B5DA51 /* notificationlistener */,
+				1BA6F5B2136B8A4D00B5DA51 /* Frameworks */,
+				1BA6F5B0136B8A4D00B5DA51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BA6F5B0136B8A4D00B5DA51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6F5AF136B8A4D00B5DA51 /* notificationlistener */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BA6F5B2136B8A4D00B5DA51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6F5B3136B8A4D00B5DA51 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BA6F5B5136B8A4D00B5DA51 /* notificationlistener */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6F5B6136B8A4D00B5DA51 /* main.m */,
+				1BA6F5BA136B8A4D00B5DA51 /* notificationlistener.1 */,
+				1BA6F5B8136B8A4D00B5DA51 /* Supporting Files */,
+			);
+			path = notificationlistener;
+			sourceTree = "<group>";
+		};
+		1BA6F5B8136B8A4D00B5DA51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6F5B9136B8A4D00B5DA51 /* notificationlistener-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BA6F5AE136B8A4D00B5DA51 /* notificationlistener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA6F5BE136B8A4D00B5DA51 /* Build configuration list for PBXNativeTarget "notificationlistener" */;
+			buildPhases = (
+				1BA6F5AB136B8A4D00B5DA51 /* Sources */,
+				1BA6F5AC136B8A4D00B5DA51 /* Frameworks */,
+				1BA6F5AD136B8A4D00B5DA51 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notificationlistener;
+			productName = notificationlistener;
+			productReference = 1BA6F5AF136B8A4D00B5DA51 /* notificationlistener */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BA6F5A6136B8A4D00B5DA51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Apple Inc";
+			};
+			buildConfigurationList = 1BA6F5A9136B8A4D00B5DA51 /* Build configuration list for PBXProject "notificationlistener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BA6F5A4136B8A4D00B5DA51;
+			productRefGroup = 1BA6F5B0136B8A4D00B5DA51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BA6F5AE136B8A4D00B5DA51 /* notificationlistener */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA6F5AB136B8A4D00B5DA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA6F5B7136B8A4D00B5DA51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BA6F5BC136B8A4D00B5DA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BA6F5BD136B8A4D00B5DA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BA6F5BF136B8A4D00B5DA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "notificationlistener/notificationlistener-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BA6F5C0136B8A4D00B5DA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "notificationlistener/notificationlistener-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BA6F5A9136B8A4D00B5DA51 /* Build configuration list for PBXProject "notificationlistener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA6F5BC136B8A4D00B5DA51 /* Debug */,
+				1BA6F5BD136B8A4D00B5DA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA6F5BE136B8A4D00B5DA51 /* Build configuration list for PBXNativeTarget "notificationlistener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA6F5BF136B8A4D00B5DA51 /* Debug */,
+				1BA6F5C0136B8A4D00B5DA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BA6F5A6136B8A4D00B5DA51 /* Project object */;
+}
